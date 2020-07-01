@@ -99,14 +99,15 @@ img {
   }
 }
 .bg-img-login {
-  background-image: url("../images/mac-board.jpg");
-  height: 560px;
+  background-image: url("../images/macouch.jpg");
+  height: 760px;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   background-attachment: fixed;
-  opacity: 0.9;
+  perspective: 3000px;
+
   //background-color: rgba(0, 0, 0, 0.5);
 }
 .bottom-link {
