@@ -18,11 +18,11 @@
   //position: absolute;
   text-align: center;
   margin: 10rem auto;
-  width: 3%;
-  height: 15%;
-  left: 28%;
+  width: 75px;
+  height: 150px;
+  left: 29%;
   top: 18%;
-  padding: 5rem 2.5rem;
+
   background-color: rgba(0, 0, 0, 0.8);
   background-image: url("../images/iphone-null.png");
   background-size: cover;
@@ -43,15 +43,16 @@
   left: 50%;
   top: auto;
   margin-left: -150px;
+  padding: 5rem 2.5rem;
   background-image: url("../images/iphonex.png");
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 2rem;
   background-attachment: auto;
-  transition: ease-in 1.5s;
+  transition: all 1.5s;
 }
 .bg-img-login:hover .form-in {
   opacity: 1;
-  transition: 2s;
+  transition: 2.5s;
 }
 //font-size: larger;
 //font-weight: bold;
