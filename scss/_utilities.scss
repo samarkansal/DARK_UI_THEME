@@ -24,12 +24,11 @@
   width: 75px;
   height: 150px;
   left: 29%;
-  top: 18%;
-
+  top: 28%;
+  position: absolute;
   background-color: rgba(0, 0, 0, 0.8);
   background-image: url("../images/iphone-null.png");
   background-size: cover;
-  position: fixed;
   background-repeat: no-repeat;
   opacity: 1;
   transform: rotateX(60deg) rotateZ(-18deg) translate3d(-120px, 40px, 20px);
@@ -46,7 +45,7 @@
   left: 50%;
   top: auto;
   margin-left: -150px;
-  margin-bottom: 1rem;
+  margin-bottom: 5rem;
   padding: 5rem 2.5rem;
   background-image: url("../images/iphonex.png");
   background-color: rgba(0, 0, 0, 0.7);
@@ -150,7 +149,7 @@
   width: 100%;
   top: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.4);
 }
 .footer-start {
   position: absolute;

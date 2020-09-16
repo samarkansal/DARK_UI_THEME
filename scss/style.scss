@@ -109,6 +109,44 @@ img {
 
   //background-color: rgba(0, 0, 0, 0.5);
 }
+
+.bgimg-dash{
+  background-image: url("../images/maps-vint.jpg");
+  height: 70vh;
+  background-size: cover;
+  background-position: center center;
+  opacity: .9;
+}
+
+.low-cont-dash{
+  display: inline-grid;
+  grid-template-columns: auto auto;
+}
+
+.low-left-dash{
+  grid-row: 1/7;
+  background-image: url("../images/car-drive-in.jpg");
+  width: 40vw;
+  background-size: cover;
+  background-position: center center;
+  height: 50vh;
+  border-radius: 3rem;
+  margin: 5rem 5rem;
+  opacity: .9;
+}
+
+.dash-head{
+  grid-row: 2/4;
+  font-size: 2.5rem;
+  line-height: .7;
+  text-align: left;
+  margin: 1rem 2rem;
+  font-weight: bold;
+  color: rgb(204, 197, 197);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
 .bottom-link {
   margin-top: 1rem;
   text-align: center;
